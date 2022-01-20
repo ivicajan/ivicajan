@@ -23,6 +23,7 @@ combined with data assimilation is core of my research activity.
 Working as a physical oceanographer I strive to keep and improve my connections, interactions and collaborations with different groups related to biochemical modelling 
 to advance interdisciplinary research.
 
+For more info please see my [project](Projects.md) and [publication](Publications.md) page.
 
 ---
 
