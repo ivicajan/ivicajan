@@ -26,9 +26,9 @@ to advance interdisciplinary research.
 
 ---
 
-*Ivica Janekovic, PhD*
-*Research Associate Professor*
-*Oceans Graduate School and the Oceans Institute*
-*University of Western Australia*
-
-*ivica dot jan at gmail dot com*
+*Ivica Janekovic, PhD*   
+*Research Associate Professor*   
+*Oceans Graduate School and the Oceans Institute*   
+*University of Western Australia*   
+   
+*ivica dot jan at gmail dot com*   
