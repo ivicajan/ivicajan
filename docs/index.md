@@ -4,7 +4,9 @@ I am Ivica Janekovic and I am a physical oceanographer currently working as a
 [Research Associate Professor](https://research-repository.uwa.edu.au/en/persons/ivica-janekovic) 
 at the [Oceans Graduate School, University of Western Australia](https://www.uwa.edu.au/ems/Schools/Oceans-Graduate-School). 
 
-Inside my research, I combine empirical, theoretical and numerical knowledge to understand major ocean processes in continental shelf oceans and the adjacent seas. 
+Previously, I was working as a senior research at the [Rudjer Boskovic Institute (Croatia)](https://www.irb.hr/eng/Divisions/Division-for-Marine-and-Environmental-Research) and was a postdoctoral scholar at the University of Hawai'i, Manoa (US) [Brian Powell' lab](https://www.soest.hawaii.edu/oceanography/team/brian-powell/).
+
+Within my research, I combine empirical, theoretical and numerical knowledge to understand major ocean processes in continental shelf oceans and the adjacent seas. 
 I am developing and implementing different types of regional ocean/wave/atmosphere modelling systems aiming to better understand our oceans and atmosphere. 
 During that jurney I often combine observations with numerical model dynamics, and/or connect different models to exchange their information during the integration, 
 all to better estimate ocean and atmosphere.   
