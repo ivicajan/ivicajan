@@ -11,7 +11,7 @@ I am developing and implementing different types of regional ocean/wave/atmosphe
 During that jurney I often combine observations with numerical model dynamics, and/or connect different models to exchange their information during the integration, 
 all to better estimate ocean and atmosphere.   
 
-My special interest is in real-time applications and operational coastal ocean forecasting systems using atmosphere-ocean-wave (WRF / ROMS / WW3)
+My special interest is in [real-time applications](http://myocean.mywire.org/UWA/model.php) and operational coastal ocean forecasting systems using atmosphere-ocean-wave (WRF / ROMS / WW3)
 2-way coupled models and quantify their predictability and uncertainty. I am working on data assimilation in coastal and ocean-wide basin systems using advanced 
 4D-Var techniques within ROMS model, utilizing HPC supercomputer facilities. Mentioned methods enable me to combine remote sensed and field measurements 
 together with model dynamics in a dynamical and consistent way, better than any of them separately. 
