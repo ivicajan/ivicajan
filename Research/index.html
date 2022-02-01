@@ -105,8 +105,8 @@ In other words, I fuse together empirical (observations), theoretical (equations
  modelling systems. During the journey I often use advanced techniques such as 4D-Var data assimilation, and/or 2-way interconnected models which enables exchange of information during the integration. </p>
 <figure>
 <div class = "center" >
-    <img src="../images/wrf_vapour_1.png" height = "200"> 
-    <img src="../images/wrf_vapour_2.png" height = "200"> 
+    <img src="../images/wrf_vapour_1.png" height = "300"> 
+    <img src="../images/wrf_vapour_2.png" height = "300"> 
 </div>
 <figcaption style = "padding-left:1%;padding-right:1%">
  "COAWST 2-way coupled system (WRF/ROMS/WW3) for North west shelf of WA."
@@ -130,9 +130,9 @@ In parallel, wave model calculates wave dynamics and sends parameters of sea sur
 and sends surface winds back to the ocean and wave models.   </p>
 <figure>
 <div class="row">
-<img src="../images/ECMWF_2019032206.png" style="width:30%"> 
-<img src="../images/max_speed_roms_hwang.png" style="width:30%"> 
-<img src="../images/hs_max.png" style="width:30%"> 
+<img src="../images/ECMWF_2019032206.png" height = "300"> 
+<img src="../images/max_speed_roms_hwang.png" height = "300"> 
+<img src="../images/hs_max.png" height = "300"> 
 </div>
 <figcaption style = "padding-left:1%;padding-right:1%">
  "ECMWF 9km resolution winds/mslp (left), ROMS maximum surface currents (center), WW3 maximum significant wave height (right)."
@@ -145,9 +145,9 @@ This approach is crucial for resolving high-resolution storm surge effects in a 
 to meter spatial resolution, while implicit time-step integration avoids small time-steps as in traditional explicit integration models (such as ADCIRC for example).   </p>
 <figure>
 <div class="row">
-<img src="../images/mesh_reg_1.png" height = "200">
-<img src="../images/mesh_reg_3.png" height = "200">
-<img src="../images/mesh_reg_5.png" height = "200">
+<img src="../images/mesh_reg_1.png" height = "300">
+<img src="../images/mesh_reg_3.png" height = "300">
+<img src="../images/mesh_reg_5.png" height = "300">
 </div>
 <figcaption style = "padding-left:1%;padding-right:1%">
  "SCHISM model grid for QLD domain(left), zoom x3 (center),  zoom x5 (right)."
@@ -159,9 +159,9 @@ to meter spatial resolution, while implicit time-step integration avoids small t
 <p>Incorporating 2-way coupled contributions of the wave-setup effects inside unstructured storm surge modelling was found important in the case of the TC Yasi (2001) at the QLD coast.   </p>
 <figure>
 <div class="row">
-<img src="../images/zeta_zoom3_YASI_fully_coupled_3hrs_2011_02_02__16.png" height = "200">
-<img src="../images/HSIG_YASI_2way_coupled_zoom_2011_02_02__12.png" height = "200">
-<img src="../images/ZETA_DIFF_YASI_2way_coupled_zoom_2011_02_02__12.png" height = "200">
+<img src="../images/zeta_zoom3_YASI_fully_coupled_3hrs_2011_02_02__16.png" height = "300">
+<img src="../images/HSIG_YASI_2way_coupled_zoom_2011_02_02__12.png" height = "300">
+<img src="../images/ZETA_DIFF_YASI_2way_coupled_zoom_2011_02_02__12.png" height = "300">
 </div>
 <figcaption style = "padding-left:1%;padding-right:1%">
  "SCHISM model storm surge sea level for TC Yasi in 2011(left), significant wave height(center), sea level difference with/without wave setup feedback(right)."
@@ -176,7 +176,7 @@ This type of study was made possible by using ~ 1 mil.CPU hours at the Pawsey CR
 <p>Australia wide extreme sea level modelling based on a <a href="https://sealevelx.ems.uwa.edu.au/">59 years (1958-2016) hindcast</a> resulted with present day extreme sea level statistics.
 The high-resolution numerical model included the effects of astronomical tides, storm surges due to wind and pressure, and seasonal and interannual mean sea level (MSL) variability.  <br />
 <figure>
-<img src="../images/schism_grid_WA.png" width = "600">
+<img src="../images/schism_grid_WA.png" width = "800">
 <figcaption style = "padding-left:1%;padding-right:1%">
  "SCHISM model numerical mesh for the whole Australia (~1 million nodes)."
 </figcaption>
@@ -185,12 +185,14 @@ The high-resolution numerical model included the effects of astronomical tides, 
 <p>Downscalling on even finer super resolutions (~1m) for the Perth region is currently under way, model is nested inside real-time ROMS system....     </p>
 <figure>
 <div class="row">
-<img src="../images/FEM_bathy_ele_new.png" width = "100">
-<img src="../images/FEM_bathy_ele_z1.png" width = "100">
-<img src="../images/FEM_bathy_ele_z2.png" width = "100">
-<img src="../images/FEM_bathy_ele_z3.png" width = "100">
-<img src="../images/FEM_bathy_ele_z4.png" width = "100">
-<img src="../images/FEM_bathy_ele_z5.png" width = "100">
+<img src="../images/FEM_bathy_ele_new.png" width = "300">
+<img src="../images/FEM_bathy_ele_z1.png" width = "300">
+<img src="../images/FEM_bathy_ele_z2.png" width = "300">
+</div>
+<div class="row">
+<img src="../images/FEM_bathy_ele_z3.png" width = "300">
+<img src="../images/FEM_bathy_ele_z4.png" width = "300">
+<img src="../images/FEM_bathy_ele_z5.png" width = "300">
 </div>
 <figcaption style = "padding-left:1%;padding-right:1%">
  "SCHISM model numerical mesh with bathymetry for nested Perth region (resolution goes to ~ 1m)."
@@ -220,9 +222,9 @@ and at the end ~ 100 m resolution near shore model.     </p>
     (i.e. 2km ROMS solution is poor representation what is happening) for a complex coastal regions such as Perth / Rottnest island.     </p>
 <figure>
 <div class="row">
-<img src="../images/cwa_cb_curr_sur_2021021901.png" style="width:30%"> 
-<img src="../images/perth_cb_curr_sur_2021021901.png" style="width:30%"> 
-<img src="../images/cb_curr_sur_2021021901.png" style="width:30%"> 
+<img src="../images/cwa_cb_curr_sur_2021021901.png"  height = "350> 
+<img src="../images/perth_cb_curr_sur_2021021901.png"  height = "350> 
+<img src="../images/cb_curr_sur_2021021901.png"  height = "350> 
 </div>
 <figcaption style = "padding-left:1%;padding-right:1%">
  "ROMS surface currents from WA ~ 2km resolution(left), Perth region 500m resolution(center), and Perth 100 m resolution and the same region."
@@ -237,9 +239,9 @@ To that end I am running operational atmosphere - ocean system based on the WRF 
 In the ocean I am using ROMS model with 2 nested grids providing high resolution ocean fields. Those results are used for research studies as well as for public events as Rottnest Swim.     </p>
 <figure>
 <div class="row">
-<img src="../images/roms_curr.png" height = "150"> 
-<img src="../images/roms_sst.png" height = "150"> 
-<img src="../images/wrf_wind.png" height = "150"> 
+<img src="../images/roms_curr.png" height = "250"> 
+<img src="../images/roms_sst.png" height = "250"> 
+<img src="../images/wrf_wind.png" height = "250"> 
 </div>
 <figcaption style = "padding-left:1%;padding-right:1%">
  "Real-time ROMS - WRF  modelling WA system. From left to right ocean sea surface currents, ocean sea surface temperature, WRF 10m winds, WRF synthetic reflectivity, WRF 2m air temperature."
