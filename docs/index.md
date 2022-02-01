@@ -20,7 +20,7 @@ degree in Oceanology (2001) and later PhD in Physics (field of Physical Oceanogr
 During the 2009 - 2011 I was a postdoctoral scholar at the University of Hawai'i, Manoa (US) working with
 [Brian Powell' lab](https://www.soest.hawaii.edu/oceanography/team/brian-powell/) on the 4D-Var Data Assimilation, ROMS nesting and real-time applications in Pacific.
 
-The most of my career I sent in Croatia, working as a Research Scientist (1997 -2009), Research Associate (2011 - 2012), Senior Research Associate (2012 - 2015) and Senior Research Scientist (2015 - 2018) at the 
+The most of my career I spent in Croatia, working as a Research Scientist (1997 -2009), Research Associate (2011 - 2012), Senior Research Associate (2012 - 2015) and Senior Research Scientist (2015 - 2018) at the 
 [Rudjer Boskovic Institute (Croatia)](https://www.irb.hr/eng/Divisions/Division-for-Marine-and-Environmental-Research).
  
 During 2015 I moved to Western Australia, UWA, Perth and was appointed as visiting Research Assistant Professor.

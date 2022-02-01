@@ -1,5 +1,5 @@
-### Recent and running project:   
-  1  2022 – Chief investigator for “Project 5 Hydrodynamics: provision of multi-decadal ocean boundary conditions and field measurements", West Port, WA.    
+### Recent and running project:    
+  1.  2022 – Chief investigator for “Project 5 Hydrodynamics: provision of multi-decadal ocean boundary conditions and field measurements", West Port, WA.    
   1. 2021 – Principal investigator and leader for “Simultaneous modelling atmosphere-ocean interactions to estimate tropical cyclone effects in ocean”, Pawsey Supercomputer research project, WA.
   1. 2021 – Chief investigator for “Improving Ocean Current Forecasting Through Deep Learning Techniques”, The University of Western Australia and Shell Development Australia Pty Ltd.
   1. 2021 – Leading chief investigator for “Development and testing of high frequency lora drifters”, RiverLab project UWA. 
