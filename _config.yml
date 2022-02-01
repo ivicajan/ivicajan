@@ -1,6 +1,0 @@
-theme: pages-themes/minimal@v0.2.0
-plugins:
-- jekyll-remote-theme
-markdown: kramdown
-title: Ivica's web page
-description: This is Ivica's web page

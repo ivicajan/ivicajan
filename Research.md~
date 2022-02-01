@@ -1,0 +1,177 @@
+### Research    
+
+Within my research, I'm using different techniques to measure & collect (insitu and remote sensed) data, and finally combine them inside the numerical model using my ocean modelling expertise.
+In other words, I fuse together empirical (observations), theoretical (equations) and numerical knowledge (usually using supercomputers) to understand major ocean processes,
+ and for example, effects they have on the coastal and offshore structures. To do that I am activity developing and implementing different types of ocean (ROMS and SCHISM) - wave (WWM III) - atmosphere (WRF)
+ modelling systems. During the journey I often use advanced techniques such as 4D-Var data assimilation, and/or 2-way interconnected models which enables exchange of information during the integration. 
+   
+<figure>
+<div class = "center" >
+	<img src="../images/wrf_vapour_1.png" height = "150"> 
+	<img src="../images/wrf_vapour_2.png" height = "150"> 
+</div>
+<figcaption style = "padding-left:1%;padding-right:1%">
+ "COAWST 2-way coupled system (WRF/ROMS/WW3) for North west shelf of WA."
+</figcaption>
+</figure>
+
+<hr />
+
+
+#### 2-Way coupled ocean-atmosphere-wave systems for tropical cyclones   
+
+Tropical cyclones (TCs) dynamics greatly depend on available heat and moisture energy they can draw from the warm ocean, 
+as well as on the sea surface roughness significantly modified by ocean wind-waves. Understanding of genesis and overall dynamics of TC systems has improved during recent years, 
+mostly influenced with our progress in better modelling and observations. Small-scale processes, such as inner-core TCs dynamics, are influenced by fluxes and interactions between 
+the ocean and atmosphere and are playing key roles in estimate of TCs intensities. Without correct boundary layer dynamics, and ocean-atmosphere exchange of fluxes, TC intensity 
+will stay poorly resolved and consequently under predicted. Today’s modern ocean, wave and atmosphere models bound together into dynamically consistent system capable of linking 
+processes between them and enabling improved TC intensity than in traditionally uncoupled approach. 
+To expose benefits of my modelling system for North Shelf of Western Australia I chose TC Veronica using 2-way coupled atmospheric-WRF, ocean-ROMS and wave-WW3 models joined 
+together inside COAWST system providing realistic feedbacks during the integration.   
+Ocean model provides information about SST (sea surface temperature) to the atmosphere model, surface ocean currents and sea level to the wave model and at the same time receives 
+feedbacks from the atmosphere model for updated surface heat and momentum flux, while from the wave model induced wave stress and contribution to turbulent mixing. 
+In parallel, wave model calculates wave dynamics and sends parameters of sea surface roughness to the atmosphere model which then adjusts air-sea boundary layer physics 
+and sends surface winds back to the ocean and wave models.   
+
+<figure>
+<div class="row">
+<img src="../images/ECMWF_2019032206.png" height = "120"> 
+<img src="../images/max_speed_roms_hwang.png" height = "120"> 
+<img src="../images/hs_max.png" height = "120"> 
+</div>
+<figcaption style = "padding-left:1%;padding-right:1%">
+ "ECMWF 9km resolution winds/mslp (left), ROMS maximum surface currents (center), WW3 maximum significant wave height (right)."
+</figcaption>
+</figure>
+
+---   
+    
+Another example of TC resolving modelling is when using SCHISM high resolution 2-way coupled system (ocean - wave), defined on the fully unstructured numerical grid (finite elements). 
+This approach is crucial for resolving high-resolution storm surge effects in a complex coastal system. Unstructured mesh provides great flexibility for resolving domain features up 
+to meter spatial resolution, while implicit time-step integration avoids small time-steps as in traditional explicit integration models (such as ADCIRC for example).   
+
+<figure>
+<div class="row">
+<img src="../images/mesh_reg_1.png" height = "200">
+<img src="../images/mesh_reg_3.png" height = "200">
+<img src="../images/mesh_reg_5.png" height = "200">
+</div>
+<figcaption style = "padding-left:1%;padding-right:1%">
+ "SCHISM model grid for QLD domain(left), zoom x3 (center),  zoom x5 (right)."
+</figcaption>
+</figure>
+
+<hr />   
+
+Incorporating 2-way coupled contributions of the wave-setup effects inside unstructured storm surge modelling was found important in the case of the TC Yasi (2001) at the QLD coast.   
+
+<figure>
+<div class="row">
+<img src="../images/zeta_zoom3_YASI_fully_coupled_3hrs_2011_02_02__16.png" height = "200">
+<img src="../images/HSIG_YASI_2way_coupled_zoom_2011_02_02__12.png" height = "200">
+<img src="../images/ZETA_DIFF_YASI_2way_coupled_zoom_2011_02_02__12.png" height = "200">
+</div>
+<figcaption style = "padding-left:1%;padding-right:1%">
+ "SCHISM model storm surge sea level for TC Yasi in 2011(left), significant wave height(center), sea level difference with/without wave setup feedback(right)."
+</figcaption>
+</figure>
+
+---    
+
+
+#### High resolution coastal ocean systems   
+
+##### Unstructured modelling    
+
+Using 3D SCHISM ocean model, but covering large domain - whole Australia, with implicit nesting due to unstructured grid I was able to resolve dynamics at the local coastal scales (~100 m resolution).
+This type of study was made possible by using ~ 1 mil.CPU hours at the Pawsey CRAY supercomputer.     
+
+Australia wide extreme sea level modelling based on a [59 years (1958-2016) hindcast](https://sealevelx.ems.uwa.edu.au/) resulted with present day extreme sea level statistics.
+The high-resolution numerical model included the effects of astronomical tides, storm surges due to wind and pressure, and seasonal and interannual mean sea level (MSL) variability.    
+<figure>
+<img src="../images/schism_grid_WA.png" width = "600">
+<figcaption style = "padding-left:1%;padding-right:1%">
+ "SCHISM model numerical mesh for the whole Australia (~1 million nodes)."
+</figcaption>
+</figure>
+
+---
+
+Downscalling on even finer super resolutions (~1m) for the Perth region is currently under way, model is nested inside real-time ROMS system....     
+
+<figure>
+<div class="row">
+<img src="../images/FEM_bathy_ele_new.png" width = "100">
+<img src="../images/FEM_bathy_ele_z1.png" width = "100">
+<img src="../images/FEM_bathy_ele_z2.png" width = "100">
+<img src="../images/FEM_bathy_ele_z3.png" width = "100">
+<img src="../images/FEM_bathy_ele_z4.png" width = "100">
+<img src="../images/FEM_bathy_ele_z5.png" width = "100">
+</div>
+<figcaption style = "padding-left:1%;padding-right:1%">
+ "SCHISM model numerical mesh with bathymetry for nested Perth region (resolution goes to ~ 1m)."
+</figcaption>
+</figure>
+
+---   
+
+##### Finite difference modelling    
+
+Using modern parallel 3D ocean model (such as ROMS), I am currently modelling ocean processes at the ~100 m spatial resolution employing nesting techniques. 
+For the central region of the Western Australia I start with ~ 2 km resolution ocean model (covering whole western coast), then nest inside 500 m resolution Perth regional model, 
+and at the end ~ 100 m resolution near shore model.     
+
+<figure>
+<div class="row">
+<img src="../images/cwa_curr_sur_2021021901.png" height = "350"> 
+<img src="../images/perth_curr_sur_2021021901.png" height = "350"> 
+<img src="../images/cb_curr_sur_2021021901.png" height = "350"> 
+</div>
+<figcaption style = "padding-left:1%;padding-right:1%">
+ "ROMS nesting model setup. Surface currents for WA ~ 2km resolution(left), Perth region 500m resolution(center), and Perth waters with 100 m resolution."
+</figcaption>
+</figure>
+
+<hr />
+
+In case you are wondering what features are resolved within each model setup (2km, 500m, or 100m)  for the same coastal region. 
+It is evident why we need nesting (i.e. 2km ROMS solution is poor representation what is happening) for a complex coastal regions such as Perth / Rottnest island.     
+
+<figure>
+<div class="row">
+<img src="../images/cwa_cb_curr_sur_2021021901.png" height = "340"> 
+<img src="../images/perth_cb_curr_sur_2021021901.png" height = "340"> 
+<img src="../images/cb_curr_sur_2021021901.png" height = "340"> 
+</div>
+<figcaption style = "padding-left:1%;padding-right:1%">
+ "ROMS surface currents from WA ~ 2km resolution(left), Perth region 500m resolution(center), and Perth 100 m resolution and the same region."
+</figcaption>
+</figure>
+
+---
+
+#### Real-time ocean - atmosphere modelling     
+
+My special interest lays in [real-time applications](http://myocean.mywire.org/UWA/model.php) and operational coastal ocean forecasting systems 
+using atmosphere-ocean-wave (WRF / ROMS / WW3) in the 2-way coupled constellation with focus to quantify their predictability and uncertainty. 
+To that end I am running operational atmosphere - ocean system based on the WRF model covering WA coast at 10km with 2-way nested 2km grid over the wider Perth region. 
+In the ocean I am using ROMS model with 2 nested grids providing high resolution ocean fields. Those results are used for research studies as well as for public events as Rottnest Swim.     
+
+<figure>
+<div class="row">
+<img src="../images/roms_curr.png" height = "150"> 
+<img src="../images/roms_sst.png" height = "150"> 
+<img src="../images/wrf_wind.png" height = "150"> 
+</div>
+<figcaption style = "padding-left:1%;padding-right:1%">
+ "Real-time ROMS - WRF  modelling WA system. From left to right ocean sea surface currents, ocean sea surface temperature, WRF 10m winds, WRF synthetic reflectivity, WRF 2m air temperature."
+</figcaption>
+</figure>
+
+
+---
+
+
+*More to come (when I find time) ...
+
+---
